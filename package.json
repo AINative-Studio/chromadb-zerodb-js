@@ -1,0 +1,55 @@
+{
+  "name": "chromadb-zerodb",
+  "version": "1.0.0",
+  "description": "Drop-in ChromaDB replacement backed by ZeroDB cloud vectors. No Docker, no setup — just import and go.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/basic.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "chromadb",
+    "chromadb-alternative",
+    "vector-database",
+    "embeddings",
+    "semantic-search",
+    "zerodb",
+    "ainative",
+    "no-docker",
+    "serverless",
+    "free-vector-database",
+    "pinecone-alternative",
+    "rag",
+    "claude",
+    "cursor",
+    "windsurf",
+    "auto-provisioning"
+  ],
+  "author": "AINative Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/chromadb-zerodb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/chromadb-zerodb-js/issues"
+  },
+  "homepage": "https://zerodb.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
