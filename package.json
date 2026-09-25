@@ -1,6 +1,6 @@
 {
   "name": "chromadb-zerodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in ChromaDB replacement backed by ZeroDB cloud vectors. No Docker, no setup — just import and go.",
   "main": "index.cjs",
   "module": "index.js",
